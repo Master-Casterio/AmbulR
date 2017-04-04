@@ -1,0 +1,14 @@
+.flotteR {
+    float:right;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+p{
+    padding:20px;
+    text-align: justify;
+}
+
+h3{
+    padding:20px;
+}
