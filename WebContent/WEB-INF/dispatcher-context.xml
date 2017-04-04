@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- 
+<mvc:resources mapping="/images/**" location="/images/" />
+<mvc:resources mapping="/css/**" location="/css/" />
+<mvc:resources mapping="/js/**" location="/js/" />
+ -->
