@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>services</title>
 <link rel="stylesheet" href="css_commercial.css">
-<link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 
