@@ -1,5 +1,6 @@
 package fr.ambulR.model;
 
+
 public class Patient {
 
 	
@@ -15,6 +16,8 @@ public class Patient {
 	private String DMP;
 	private String numSecu;
 	private String password;
+	
+	
 	public String getNom() {
 		return nom;
 	}

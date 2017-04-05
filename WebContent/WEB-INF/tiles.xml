@@ -10,11 +10,37 @@
 	</definition>
 
 	<!-- Configuration de la vue "commercial" -->
-	<definition name="commercial" extends="base.definition">
-		<put-attribute name="title" value="commercial.home" />
+	<definition name="page_commercial" extends="base.definition">
+		<put-attribute name="title" value="offres" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/commercial.jsp" />
 	</definition>
 
+	<!-- Configuration de la vue "accueil" -->
+	<definition name="page_accueil" extends="base.definition">
+		<put-attribute name="title" value="accueil" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/pageaccueil.jsp" />
+	</definition>
+
+	<!-- Configuration de la vue "inscription" -->
+	<definition name="page_inscription" extends="base.definition">
+		<put-attribute name="title" value="inscription" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/inscription.jsp" />
+	</definition>
+	
+		<!-- Configuration de la vue "modifier le profil" -->
+	<definition name="page_inscription" extends="base.definition">
+		<put-attribute name="title" value="modifier le profil" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/inscription.jsp" />
+	</definition>
+		
+	
+
+	<!-- Configuration de la vue "urgence" -->
+	<definition name="page-urgenceindex" extends="base.definition">
+		<put-attribute name="title" value="urgence" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/pageurgenceindex.jsp" />
+	</definition>
 
 
 
