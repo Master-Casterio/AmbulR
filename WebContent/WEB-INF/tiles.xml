@@ -26,6 +26,7 @@
 		<put-attribute name="title" value="inscription" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/inscription.jsp" />
 	</definition>
+<<<<<<< HEAD
 	
 		<!-- Configuration de la vue "modifier le profil" -->
 	<definition name="page_inscription" extends="base.definition">
@@ -34,6 +35,8 @@
 	</definition>
 		
 	
+=======
+>>>>>>> 84a7ae1330df0cbea1ba70571691ca206b4be18c
 
 	<!-- Configuration de la vue "urgence" -->
 	<definition name="page-urgenceindex" extends="base.definition">
