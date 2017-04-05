@@ -45,7 +45,7 @@
     <div class="sscont">
     <img src="projetub.gif">
     </div>
-<form id="connexion" action="#" method=« post">
+<form id="connexion" action="/pageurgenceindex" method="post">
     <p>Connection</p>
     <div>
     <label for="identifiant">Identifiant</label>
@@ -58,9 +58,11 @@
     <div class="valider">
     <input id="valider" type="submit" value="Valider">
     </div>
+    </form>
     <div class="bordure"></div>
     <p>Pas encore membre?</p>
     <div class = inscription>
+    <form id="connexion" action="#" method="post">
     <input type="submit" value="Inscription">
     </div>
 

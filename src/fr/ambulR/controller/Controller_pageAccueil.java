@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Controller_pageAccueil {
 
-	@RequestMapping("/pageacceuil")
+	@RequestMapping("/pageaccueil")
 	public String home(Model model) {
 	
-	return "pageacceuil";
+	return "page_accueil";
 	}
 	}
 
