@@ -63,6 +63,8 @@
     <div class = inscription>
     <input type="submit" value="Inscription">
     </div>
+
+
 </form>
 
 </ul>

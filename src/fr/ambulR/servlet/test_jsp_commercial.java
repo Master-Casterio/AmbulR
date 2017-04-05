@@ -19,7 +19,7 @@ public class test_jsp_commercial extends HttpServlet {
 
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		this.getServletContext().getRequestDispatcher("/WEB-INF/views/jsp/commercial.jsp").forward(request, response);
+		this.getServletContext().getRequestDispatcher("/WEB-INF/views/jsp/pageaccueil.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
