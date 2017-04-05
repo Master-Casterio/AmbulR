@@ -1,0 +1,5 @@
+CREATE DATABASE ambulR;
+
+
+grant all privileges on ambulR.* TO'ambulRadmin'@'localhost' IDENTIFIED BY 'mdpambulR';
+flush privileges;
