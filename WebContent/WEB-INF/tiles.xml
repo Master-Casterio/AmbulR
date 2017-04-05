@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- Configuration du layout principal -->
+	<definition name="base.definition" template="/WEB-INF/views/jsp/structure.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<!-- Configuration de la vue "commercial" -->
+	<definition name="commercial" extends="base.definition">
+		<put-attribute name="title" value="commercial.home" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/commercial.jsp" />
+	</definition>
+
+
+
+
+</tiles-definitions>
