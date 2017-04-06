@@ -5,8 +5,8 @@
 	<artifactId>AmbulR</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	
-	
+
+
 	<properties>
 		<spring.version>4.3.3.RELEASE</spring.version>
 	</properties>
@@ -85,6 +85,14 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.5.0</version>
+		</dependency>
+
+		<!-- lib -->
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
 		</dependency>
 
 	</dependencies>
