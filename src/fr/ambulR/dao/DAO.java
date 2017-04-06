@@ -8,7 +8,4 @@ public abstract class DAO<T> {
 		public abstract T save(T object);
 		public abstract boolean delete(T object);
 
-	
-	
-	
 }
