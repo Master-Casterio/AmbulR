@@ -1,5 +1,6 @@
 package fr.ambulR.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
@@ -8,17 +9,37 @@ import javax.persistence.Table;
 public class Patient extends Connexion {
 
 	
-
+	@Column (name="patient_nom")
 	private String nom;
+	
+	@Column (name="patient_prenom")
 	private String prenom;
+	
+	@Column (name="patient_age")
 	private int age;
+	
+	@Column (name="patient_sexe")
 	private String sexe;
+	
+	@Column (name="patient_adresse")
 	private String adresse;
+	
+	@Column (name="patient_tel")
 	private String tel;
+	
+	@Column (name="patient_nomU")
 	private String nomU;
+	
+	@Column (name="patient_prenomU")
 	private String prenomU;
+	
+	@Column (name="patient_telU")
 	private String telU;
+	
+	@Column (name="patient_DMP")
 	private String DMP;
+	
+	@Column (name="patient_numSecu")
 	private String numSecu;
 	
 	public String getNom() {
