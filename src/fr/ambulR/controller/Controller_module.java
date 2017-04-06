@@ -5,11 +5,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class Controller_commercial {
+public class Controller_module {
 
-	@RequestMapping("/offres")
-	public String commercial(Model model) {
-		return "page_commercial";
+	@RequestMapping("/modules")
+	public String module(Model model) {
+		return "page_module";
 	}
 
 }
