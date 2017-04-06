@@ -39,6 +39,12 @@ public class Controller_inscription extends HttpServlet {
 																												// l'instanciation
 		// on lui dit de injecter dans l'objet courant .this tous les Autowired
 	}
+	
+	/*@RequestMapping("/inscription")
+	public String patient (Model model) {
+	model.addAttribute("patient"); //modelAttribute="patient" dans le jsp inscription
+	return "patient";
+	} */
 
 	//@Autowired
 	private PatientValidator patientValidator;
