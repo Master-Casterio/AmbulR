@@ -9,7 +9,7 @@
 
 
 
-	<form:form id="container10" action=""
+	<form:form id="container10" action="inscription"
 		method="post" modelAttribute="utilisateur">
 
 		<table>
@@ -28,9 +28,9 @@
 			</tr>
 			<tr>
 			<td><form:label path="age">Age :</form:label></td>
-			<td><form:input type="number" placeholder="Saisir le prénom"
+			<td><form:input type="text" placeholder="Saisir l'age"
 					path="age"></form:input></td>
-			<td><form:errors path="age" type="number" /></td>
+			<td><form:errors path="age"/></td>
 			</tr>
 			<tr>
 				<td><form:label path="sexe">Sexe :</form:label></td>

@@ -4,22 +4,35 @@ package fr.ambulR.model;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-/*@Entity*/
+import org.hibernate.validator.constraints.NotEmpty;
+
+@Entity
 @Table(name="patient")
 public class Patient extends Connexion {
 	
-
+	@NotEmpty(message="rentrer le nom")
 	private String nom;
+	@NotEmpty(message="rentrer le prenom")
 	private String prenom;
-	private int age;
+	@NotEmpty(message="rentrer l'age")
+	private String age;
+	@NotEmpty(message="rentrer le sexe")
 	private String sexe;
+	@NotEmpty(message="rentrer l'adresse")
 	private String adresse;
+	@NotEmpty(message="rentrer le tel")
 	private String tel;
+	@NotEmpty(message="rentrer le nomU")
 	private String nomU;
+	@NotEmpty(message="rentrer le prenomU")
 	private String prenomU;
+	@NotEmpty(message="rentrer le telU")
 	private String telU;
+	@NotEmpty(message="rentrer le DMP")
 	private String DMP;
+	@NotEmpty(message="rentrer le numSecu")
 	private String numSecu;
+	@NotEmpty(message="rentrer le password")
 	private String password;
 	
 
@@ -35,10 +48,10 @@ public class Patient extends Connexion {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-	public int getAge() {
+	public String getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(String age) {
 		this.age = age;
 	}
 	public String getSexe() {
