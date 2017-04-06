@@ -9,15 +9,18 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import fr.ambulR.model.Connexion;
+
 @Controller
 public class Controller_pageurgenceindex {
 
 	@RequestMapping(value = "/pageurgenceindex", method = RequestMethod.POST)
-	public String subscribe(@Valid @ModelAttribute("user") Utilisateur utilisateur, BindingResult result, Model model) {
+	public String subscribe(@Valid @ModelAttribute("user") Connexion connexion, BindingResult result, Model model) {
 	if (result.hasErrors()) {
 	System.out.println("L'utilisateur n'a pas été validé ...");
-	return "subscribe";
+	return "page_accueil";
 	}
-	System.out.println("Prénom : " + utilisateur.getPrenom() + " Nom : " + utilisateur.getNom());
-	return "home";
-	}}
+	System.out.println("Identifiant : " + connexion.getIdentifiant() + " password : " + connexion.getPassword());
+	return "page-urgenceindex";
+	}
+	}
