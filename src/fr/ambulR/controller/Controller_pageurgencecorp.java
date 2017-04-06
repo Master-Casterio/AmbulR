@@ -9,7 +9,7 @@ import fr.ambulR.model.Connexion;
 @Controller
 public class Controller_pageurgencecorp {
 
-	@RequestMapping("/pageUrgenceCorporelle")
+	@RequestMapping("/urgenceCorporelle")
 	public String home(Model model) {
 		model.addAttribute("user", new Connexion());
 	return "page_urgence";

@@ -14,7 +14,7 @@ import fr.ambulR.model.Connexion;
 @Controller
 public class Controller_pageurgenceindex {
 
-	@RequestMapping(value = "/pageurgenceindex", method = RequestMethod.POST)
+	@RequestMapping(value = "/urgenceindex", method = RequestMethod.POST)
 	public String subscribe(@Valid @ModelAttribute("user") Connexion connexion, BindingResult result, Model model) {
 	if (result.hasErrors()) {
 	System.out.println("L'utilisateur n'a pas été validé ...");
