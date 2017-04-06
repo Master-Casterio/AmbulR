@@ -21,11 +21,11 @@ public class Connexion
 private int connexion_id;
 	
 @Column (name="identifiant")
-@NotEmpty(message="l'identifiant est obligatoire")
+@NotEmpty(message="Identifiant obligatoire")
 private  String identifiant;
 
 @Column (name="password")
-@NotEmpty(message="le mot de passe est obligatoire")
+@NotEmpty(message="Mot de passe obligatoire")
 private String password;
 
 public String getIdentifiant() {

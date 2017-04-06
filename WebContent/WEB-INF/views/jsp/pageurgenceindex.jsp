@@ -34,12 +34,12 @@
     </div>
 </div>
 <div id="typeaccident">
-<form id="malaises" action="pagemalaise.html" method="post">
+<form id="malaises" action="pagemalaise" method="post">
     <div>
         <input id="malaise" type="submit" value="Malaise">
     </div>
 </form>
-<form id="Accidents" action="pageurgences.html" method="post">
+<form id="Accidents" action="pageurgences" method="post">
     <div class="accident">
         <input class="accidents" type="submit" value="Accident corporelle">
     </div>

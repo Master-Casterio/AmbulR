@@ -49,13 +49,13 @@
 			<p>Connection</p>
 			<table>
 				<tr>
-					<td><form:label path="Identifiant">identifiant</form:label></td>
+					<td><form:label path="identifiant">Identifiant</form:label></td>
 					<td><form:input path="identifiant" /></td>
 					<td><form:errors path="identifiant" /></td>
 				</tr>
 
 				<tr>
-					<td><form:label path="Password">password</form:label></td>
+					<td><form:label path="password">Password</form:label></td>
 					<td><form:password path="password" /></td>
 					<td><form:errors path="password" /></td>
 				</tr>
