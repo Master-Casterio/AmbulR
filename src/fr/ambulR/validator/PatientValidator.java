@@ -12,22 +12,20 @@ import fr.ambulR.model.Patient;
 public class PatientValidator implements Validator {
 
 	@Override
-	public boolean supports(Class<?> arg0) {
-		return arg0.equals(ConfirmPassword.class);
+	public boolean supports(Class<?> cls) {
+		return Patient.class.equals(cls);
 
 	}
 	
 
-	@Override
-	public void validate(Object arg0, Errors arg1) {
-		ConfirmPassword confirmPassword = (ConfirmPassword) arg0;
-		Patient patient = new Patient();
+	@Override public void validate(Object obj, Errors e) {
+        Patient cust = (Patient)obj;
+        ConfirmPassword custi = (ConfirmPassword)obj;
 
-		ValidationUtils.rejectIfEmpty(arg1, "confirmPassword", "password2");
-		if (!confirmPassword.getPassword2().equals(patient.getPassword())) {
-			arg1.reject("password2", "mot de pass invalid");
-		}
-
+        if(!(cust.getPassword().equals(custi.getPassword2()))){
+            e.rejectValue("password2", "notmatch.password", "les deux password ne sont pas identiques");
+        }
+        }
 	}
 
-}
+

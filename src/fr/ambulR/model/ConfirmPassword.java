@@ -1,8 +1,10 @@
 package fr.ambulR.model;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class ConfirmPassword extends Patient{
 
-	
+	@NotEmpty(message="rentrer le password2")
 	private String password2;
 
 	public String getPassword2() {
