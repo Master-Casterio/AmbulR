@@ -1,11 +1,13 @@
 package fr.ambulR.validator;
 
+import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 import fr.ambulR.model.Connexion;
 
+@Component
 public class InscriptionMdpIdValidator implements Validator {
 
 	@Override

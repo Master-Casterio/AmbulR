@@ -40,8 +40,8 @@ public class Controller_inscription extends HttpServlet {
 		// on lui dit de injecter dans l'objet courant .this tous les Autowired
 	}
 
-/*	@Autowired
-	private PatientValidator patientValidator;*/
+	//@Autowired
+	private PatientValidator patientValidator;
 
 	// ça va m'envoyer à la page jsp inscription
 	@RequestMapping(value = "/inscription", method = RequestMethod.GET)
@@ -49,7 +49,7 @@ public class Controller_inscription extends HttpServlet {
 		return "page_inscription";
 	}
 
-	/*
+	
 	@RequestMapping(value = "/inscription", method = RequestMethod.POST)
 	public String inscription(@Valid @ModelAttribute("patient") ConfirmPassword confirmPassword, BindingResult result,
 			Model model) {
@@ -63,6 +63,6 @@ public class Controller_inscription extends HttpServlet {
 		}
 		System.out.println(confirmPassword.toString());
 		return "redirect:/page_accueil/" + confirmPassword.getPrenom();
-	} */
+	} 
 
-}
+} 

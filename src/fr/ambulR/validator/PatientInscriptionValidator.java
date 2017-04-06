@@ -1,11 +1,12 @@
 package fr.ambulR.validator;
 
+import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 import fr.ambulR.model.Patient;
-
+@Component
 public class PatientInscriptionValidator implements Validator {
 
 	
