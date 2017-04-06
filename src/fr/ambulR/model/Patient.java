@@ -1,13 +1,14 @@
 package fr.ambulR.model;
 
+
 import javax.persistence.Column;
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="patient")
 public class Patient extends Connexion {
-
 	
 	@Column (name="patient_nom")
 	private String nom;
@@ -41,7 +42,9 @@ public class Patient extends Connexion {
 	
 	@Column (name="patient_numSecu")
 	private String numSecu;
+	private String password;
 	
+
 	public String getNom() {
 		return nom;
 	}
