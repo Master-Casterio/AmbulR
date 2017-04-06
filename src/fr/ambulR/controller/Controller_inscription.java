@@ -30,21 +30,21 @@ import fr.ambulR.validator.PatientValidator;
 public class Controller_inscription extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	@Override
+	/*@Override
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);
-		SpringBeanAutowiringSupport.processInjectionBasedOnServletContext(this, config.getServletContext()); // methode
+		SpringBeanAutowiringSupport.processInjectionBasedOnServletContext(this, config.getServletContext());  // methode
 																												// init
 																												// appelée
 																												// à
 																												// l'instanciation
 		// on lui dit de injecter dans l'objet courant .this tous les Autowired
-	}
+	} */
 	
 	@RequestMapping("/inscription")
-	public String user (Model model) {
-	model.addAttribute("user", new Patient()); //modelAttribute="patient" dans le jsp inscription
-	return "inscription";
+	public String inscriptionUser (Model model) {
+	model.addAttribute("utilisateur", new Patient()); //modelAttribute="patient" dans le jsp inscription
+	return "page_inscription";
 	} 
 
 

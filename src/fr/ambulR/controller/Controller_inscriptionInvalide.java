@@ -21,6 +21,7 @@ import fr.ambulR.validator.PatientValidator;
 @Controller
 public class Controller_inscriptionInvalide extends HttpServlet  {
 
+	/*
 	@Override
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);
@@ -32,21 +33,22 @@ public class Controller_inscriptionInvalide extends HttpServlet  {
 	@Autowired
 	private PatientValidator patientValidator;
 	
+*/
 	
 	
-	@RequestMapping(value = "/inscription", method = RequestMethod.POST)
+	@RequestMapping(value = "/validationInscription", method = RequestMethod.POST)
 	public String inscription(@Valid @ModelAttribute("patient") ConfirmPassword confirmPassword, BindingResult result,
 			Model model) {
-		patientValidator.validate(confirmPassword, result);
+		/* patientValidator.validate(confirmPassword, result);
 		if (result.hasErrors()) {
 			System.out.println("Validation errors:");
 			for (ObjectError oe : result.getAllErrors()) {
 				System.out.println(oe.getDefaultMessage());
 			}
-			return "inscription";
+			return "page_inscription";
 		}
-		System.out.println(confirmPassword.toString());
-		return "redirect:/page_accueil/" + confirmPassword.getPrenom();
+		System.out.println(confirmPassword.toString()); */
+		return "redirect:/page_accueil/" /*+ confirmPassword.getPrenom()*/;
 	} 
 	
 	
