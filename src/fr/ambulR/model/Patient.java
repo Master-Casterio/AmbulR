@@ -1,9 +1,14 @@
 package fr.ambulR.model;
 
 
-public class Patient {
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
+/*@Entity*/
+@Table(name="patient")
+public class Patient extends Connexion {
 	
+
 	private String nom;
 	private String prenom;
 	private int age;
@@ -17,7 +22,7 @@ public class Patient {
 	private String numSecu;
 	private String password;
 	
-	
+
 	public String getNom() {
 		return nom;
 	}
@@ -84,12 +89,7 @@ public class Patient {
 	public void setNumSecu(String numSecu) {
 		this.numSecu = numSecu;
 	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
+
 	
 
 	

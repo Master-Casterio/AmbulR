@@ -6,39 +6,6 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 
 
-<html>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Index</title>
-
-<!--  <h1> <spring:message code="page.index.welcome" /> </h1> -->
-
-<body>
-
-
-        <ul id="menu-bar">
-            <li><a href="pageaccueil.html">Home</a></li>
-            <li><a class="active">Profil</a>
-                <ul>
-                    <li><a href="#">Voir</a></li>
-                    <li><a href="#">Modifier</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Informations</a>
-                <ul>
-                    <li><a href="commercial.html">Les formules</a></li>
-                    <li><a href="module.html">Les modules</a></li>
-                    <li><a href="Temoignage.html">Ils l'utilisent</a></li>
-                </ul>
-            </li>
-            <li><a href="Nous.html">Qui sommes nous?</a></li>
-            <li><a href="Contact_Us">Nous contacter</a></li>
-
-
-            <div class="logo">
-                <img src="image.png" width="50px" height="50px" align="right">
-            </div>
-
-        </ul>
 
 
         <ul class="flex-container4">
@@ -46,7 +13,7 @@
                 <img src="projetub.gif" width="500px" height="500px">
               </div>
             <div class="faischier">
-                <form id="container10" action="inscription" method="post">
+                <form id="container10" action="inscription" method="get">
 
                     <div>
                         <label for="nom">Nom : </label>
@@ -124,6 +91,3 @@
             </form>
 </ul>
 
-
-</body>
-</html>

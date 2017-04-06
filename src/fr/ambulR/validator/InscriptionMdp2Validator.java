@@ -1,4 +1,4 @@
-package fr.ambulR.controller;
+package fr.ambulR.validator;
 
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
@@ -9,7 +9,7 @@ import fr.ambulR.model.ConfirmPassword;
 public class InscriptionMdp2Validator implements Validator {
 
 	@Override
-	public boolean supports(Class<?> arg0) {
+	public boolean supports(Class<?> cls) {
 		return ConfirmPassword.class.equals(cls);
 	}
 

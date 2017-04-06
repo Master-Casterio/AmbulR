@@ -93,7 +93,7 @@
                     </div>
 
                     <div>
-                        <label for="DMP">Dossier Medical Personnel : </label>
+                        <label for="DMP"> Numéro du Dossier Medical Personnel : </label>
                         <input id="DMP" type="text" placeholder="Saisir votre Dossier Medical Personnel" name="DMP">
                     </div>
 

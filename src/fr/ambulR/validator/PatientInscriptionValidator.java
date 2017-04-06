@@ -1,4 +1,4 @@
-package fr.ambulR.controller;
+package fr.ambulR.validator;
 
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
