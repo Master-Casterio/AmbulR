@@ -45,33 +45,49 @@
 		<put-attribute name="title" value="modifier le profil" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/inscription.jsp" />
 	</definition>
-	
+
 	<!-- Configuration de la vue "modifier le contact_us" -->
 	<definition name="page_contactus" extends="base.definition">
 		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
 		<put-attribute name="title" value="nous-contacter" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/contact_us.jsp" />
 	</definition>
-	
+
 	<!-- Configuration de la vue "modifier le module" -->
 	<definition name="page_module" extends="base.definition">
 		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
 		<put-attribute name="title" value="modules" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/module.jsp" />
 	</definition>
-	
+
 	<!-- Configuration de la vue "modifier le auteurs" -->
 	<definition name="page_nous" extends="base.definition">
 		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
 		<put-attribute name="title" value="auteurs" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/nous.jsp" />
 	</definition>
-	
+
 	<!-- Configuration de la vue "modifier le temoignage" -->
 	<definition name="page_temoignage" extends="base.definition">
 		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
 		<put-attribute name="title" value="temoignage" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/temoignage.jsp" />
+	</definition>
+
+
+	<!-- Configuration de la vue "malaise" -->
+	<definition name="page_malaise" extends="base.definition">
+		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
+		<put-attribute name="title" value="malaise" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/pagemalaise.jsp" />
+	</definition>
+
+	<!-- Configuration de la vue "urgencecorporelle -->
+	<definition name="page_urgence" extends="base.definition">
+		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
+		<put-attribute name="title" value="urgence corporelle" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/pageurgences.jsp" />
 	</definition>
 
 

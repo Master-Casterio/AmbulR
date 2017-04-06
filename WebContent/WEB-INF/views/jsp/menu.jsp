@@ -2,7 +2,7 @@
 	pageEncoding="ISO-8859-1"%>
 
 <ul id="menu-bar">
-	<li><a href="">Home</a></li>
+	<li><a href="accueil">Home</a></li>
 	<li><a href="">Profil</a>
 		<ul>
 			<li><a href="#">Voir son profil</a></li>
@@ -16,7 +16,7 @@
 		</ul></li>
 	<li><a href="auteurs">Qui sommes nous?</a></li>
 	<li><a href="contact">Nous contacter</a></li>
-	<li><a href="">Urgences</a>
+	<li><a href="urgenceindex">Urgences</a>
 	<li class="logo"><img src="/AmbulR/images/image.png" width="50px" height="50px"
 		align="right"></li>
 </ul>
