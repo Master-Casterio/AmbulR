@@ -7,6 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 @Entity
 @Table(name="connexion")
 public class Connexion 
@@ -19,9 +21,11 @@ public class Connexion
 private int connexion_id;
 	
 @Column (name="identifiant")
+@NotEmpty(message="Identifiant obligatoire")
 private  String identifiant;
 
 @Column (name="password")
+@NotEmpty(message="Mot de passe obligatoire")
 private String password;
 
 public String getIdentifiant() {
