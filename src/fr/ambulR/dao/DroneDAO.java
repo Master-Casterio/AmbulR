@@ -4,32 +4,30 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import fr.ambulR.model.Drone;
 
-import fr.ambulR.model.Patient;
-
-
-public class patientDAO extends DAO<Patient> {
+public class DroneDAO extends DAO<Drone>{
 
 	@PersistenceContext
 	private EntityManager em;
 	
 	@Override
-	public Patient find(int id) {
-		return this.em.find(Patient.class, id);
+	public Drone find(int id) {
+		return this.em.find(Drone.class, id);
 	}
 
 	@Override
-	public List<Patient> findAll() {
-		return this.em.createQuery("SELECT p FROM patient p", Patient.class).getResultList();
+	public List<Drone> findAll() {
+		return this.em.createQuery("SELECT p FROM drone p", Drone.class).getResultList();
 	}
 
 	@Override
-	public Patient save(Patient object) {
+	public Drone save(Drone object) {
 		return this.em.merge(object);
 	}
 
 	@Override
-	public boolean delete(Patient object) {
+	public boolean delete(Drone object) {
 		try {
 			this.em.remove(this.em.merge(object));
 			return true;
@@ -39,5 +37,7 @@ public class patientDAO extends DAO<Patient> {
 			return false;
 		}
 	}
+
+	
 
 }

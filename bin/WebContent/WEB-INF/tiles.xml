@@ -10,8 +10,7 @@
 		<put-attribute name="body" value="" />
 	</definition>
 
-	<!-- Configuration de la vue "comme
-	rcial" -->
+	<!-- Configuration de la vue "commercial" -->
 	<definition name="page_commercial" extends="base.definition">
 		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
 		<put-attribute name="title" value="offres" />
@@ -89,22 +88,6 @@
 		<put-attribute name="title" value="urgence corporelle" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/jsp/pageurgences.jsp" />
-	</definition>
-	
-	<!-- Configuration de la vue "faq" -->
-	<definition name="page_faq" extends="base.definition">
-		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
-		<put-attribute name="title" value="FAQ" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/jsp/faq.jsp" />
-	</definition>
-	
-	<!-- Configuration de la vue "Google" -->
-	<definition name="page_googleAPI" extends="base.definition">
-		<put-attribute name="menu" value="/WEB-INF/views/jsp/menu.jsp" />
-		<put-attribute name="title" value="googleAPI" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/jsp/googlejsp_api.jsp" />
 	</definition>
 
 

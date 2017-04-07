@@ -63,7 +63,6 @@ public class Patient extends Connexion {
 	@NotEmpty(message="rentrer le password")
 	private String password;
 
-   
     public String getNom() {
         return nom;
     }
