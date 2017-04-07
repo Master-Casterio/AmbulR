@@ -11,7 +11,7 @@
 
 		<div class="_container_faq">
 
-			<div class="_titre_faq">question1</div>
+			<div class="_titre_faq">question 1</div>
 			<button type="button" class="_fleche-bas_faq">▼</button>
 			<button type="button" class="_fleche-haut_faq">▲</button>
 
@@ -32,7 +32,7 @@
 
 		<div class="_container_faq2">
 
-			<div class="_titre_faq2">question2</div>
+			<div class="_titre_faq2">question 2</div>
 			<button type="button" class="_fleche-bas_faq2">▼</button>
 			<button type="button" class="_fleche-haut_faq2">▲</button>
 
@@ -52,7 +52,7 @@
 
 		<div class="_container_faq3">
 
-			<div class="_titre_faq3">question3</div>
+			<div class="_titre_faq3">question 3</div>
 			<button type="button" class="_fleche-bas_faq3">▼</button>
 			<button type="button" class="_fleche-haut_faq3">▲</button>
 
@@ -73,7 +73,7 @@
 
 		<div class="_container_faq4">
 
-			<div class="_titre_faq4">question4</div>
+			<div class="_titre_faq4">question 4</div>
 			<button type="button" class="_fleche-bas_faq4">▼</button>
 			<button type="button" class="_fleche-haut_faq4">▲</button>
 

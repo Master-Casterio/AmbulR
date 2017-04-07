@@ -16,7 +16,7 @@
 		publishing software like Aldus PageMaker including versions of Lorem
 		Ipsum.
 		<img src="http://www.keruve.com/css/keruve-2015.jpg">
-		<li class="flex-item_commercial">10 €</li>
+		<li class="flex-item_commercial">ABONNEMENT 1 MOIS</li>
 	</ul>
 </div>
 
