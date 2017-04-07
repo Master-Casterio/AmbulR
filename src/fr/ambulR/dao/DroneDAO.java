@@ -2,33 +2,40 @@ package fr.ambulR.dao;
 
 import java.util.List;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import fr.ambulR.model.Drone;
-import fr.ambulR.model.Patient;
 
 public class DroneDAO extends DAO<Drone>{
 
+	@PersistenceContext
+	private EntityManager em;
+	
 	@Override
 	public Drone find(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		return this.em.find(Drone.class, id);
 	}
 
 	@Override
 	public List<Drone> findAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.em.createQuery("SELECT p FROM drone p", Drone.class).getResultList();
 	}
 
 	@Override
 	public Drone save(Drone object) {
-		// TODO Auto-generated method stub
-		return null;
+		return this.em.merge(object);
 	}
 
 	@Override
 	public boolean delete(Drone object) {
-		// TODO Auto-generated method stub
-		return false;
+		try {
+			this.em.remove(this.em.merge(object));
+			return true;
+		}
+		
+		catch (Exception ex) {
+			return false;
+		}
 	}
 
 	

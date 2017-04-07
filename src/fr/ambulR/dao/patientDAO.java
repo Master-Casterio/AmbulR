@@ -20,7 +20,7 @@ public class patientDAO extends DAO<Patient> {
 
 	@Override
 	public List<Patient> findAll() {
-		return this.em.createQuery("SELECT p FROM Patient p", Patient.class).getResultList();
+		return this.em.createQuery("SELECT p FROM patient p", Patient.class).getResultList();
 	}
 
 	@Override
