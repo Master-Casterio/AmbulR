@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 target/*
 .classpath
 .settings/*
 .project
-/target/
-=======
-/target/
-
-
->>>>>>> master
