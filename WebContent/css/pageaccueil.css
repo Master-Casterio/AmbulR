@@ -1,9 +1,9 @@
-.ﬂex-container {
+.flex-container {
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
-    ﬂex-wrap: nowrap;
+    flex-wrap: nowrap;
     justify-content:center;
 }
 .titre{
