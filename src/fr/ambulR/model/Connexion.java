@@ -20,11 +20,11 @@ public class Connexion
 @GeneratedValue(strategy=GenerationType.AUTO)
 private int connexion_id;
 	
-@Column (name="identifiant")
+@Column (name="connexion_identifiant")
 @NotEmpty(message="Identifiant obligatoire")
 private  String identifiant;
 
-@Column (name="password")
+@Column (name="connexion_password")
 @NotEmpty(message="Mot de passe obligatoire")
 private String password;
 
