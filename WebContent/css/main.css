@@ -462,3 +462,155 @@ html[xmlns] #menu-bar {
     padding:20px;
 }
 
+
+
+
+/* css FAQ */
+
+._box-mini_faq, _box-mini2_faq {
+    margin: 50px 50px 25px 25px;
+    border: 1px solid black;
+    width: 50%;
+    background-color: #f5f5f5;
+
+    box-shadow: 8px 6px 5px 0px black;
+}
+._container_faq {
+    display: flex;
+    flex-wrap: wrap;
+}
+._titre_faq {
+    margin:15px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Aharoni;
+    border: 1px double black;
+    box-shadow: 4px 2px 5px 0px #666666;
+    text-align: center;
+    width: 80%;
+}
+._fleche-bas_faq,._fleche-haut_faq {
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+}
+
+._text-inside_faq {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #fefefe;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+
+/* css FAQ II question */
+
+
+._container_faq2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+._titre_faq2 {
+    margin:15px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Aharoni;
+    border: 1px double black;
+    box-shadow: 4px 2px 5px 0px #666666;
+    text-align: center;
+    width: 80%;
+}
+._fleche-bas_faq2,._fleche-haut_faq2 {
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+}
+
+._text-inside_faq2 {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #fefefe;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+/* css FAQ III question */
+
+
+._container_faq3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+._titre_faq3 {
+    margin:15px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Aharoni;
+    border: 1px double black;
+    box-shadow: 4px 2px 5px 0px #666666;
+    text-align: center;
+    width: 80%;
+}
+._fleche-bas_faq3,._fleche-haut_faq3 {
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+}
+
+._text-inside_faq3 {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #fefefe;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+
+
+/* css FAQ IV question */
+
+
+._container_faq4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+._titre_faq4 {
+    margin:15px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Aharoni;
+    border: 1px double black;
+    box-shadow: 4px 2px 5px 0px #666666;
+    text-align: center;
+    width: 80%;
+}
+._fleche-bas_faq4,._fleche-haut_faq4 {
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+}
+
+._text-inside_faq4 {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #fefefe;
+    overflow-x: visible;
+    overflow-y: visible;
+}

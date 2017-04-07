@@ -1,48 +1,93 @@
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<section class="_widget_faq">
+	<div class="_box-mini_faq">
 
-<html>
-<head>
-<title>faq</title>
-</head>
-<body>
-	<a href="#" onmouseover="over(question1)" onmouseout="out(question1)">1)
-		Première Question</a>
-	<div id="question1" style="display: none;">
-		<ul>
-			<li>réponse 1....</li>
-			<li>réponse 1....</li>
-			<li>réponse 1....</li>
-		</ul>
+		<div class="_container_faq">
+
+			<div class="_titre_faq">question1</div>
+			<button type="button" class="_fleche-bas_faq">▼</button>
+			<button type="button" class="_fleche-haut_faq">▲</button>
+
+			<div class="_box-mini2_faq">
+				<div class="_text-inside_faq">Lorem ipsum dolor sit amet,
+					consectetur adipisicing elit. A accusantium aut cupiditate ipsum
+					neque quaerat temporibus totam velit voluptates voluptatum. Ea
+					eaque eveniet temporibus! Cumque error expedita necessitatibus
+					neque odit.</div>
+			</div>
+		</div>
 	</div>
-	<br />
-	<br />
-	<a href="#" onmouseover="over(question2)" onmouseout="out(question2)">2)
-		Deuxième Question</a>
-	<div id="question2" style="display: none;">
-		<ul>
-			<li>réponse 2...</li>
-			<li>réponse 2...</li>
-			<li>réponse 2...</li>
-		</ul>
+</section>
+
+
+<section>
+	<div class="_box-mini_faq">
+
+		<div class="_container_faq2">
+
+			<div class="_titre_faq2">question2</div>
+			<button type="button" class="_fleche-bas_faq2">▼</button>
+			<button type="button" class="_fleche-haut_faq2">▲</button>
+
+			<div class="_box-mini2_faq2">
+				<div class="_text-inside_faq2">Lorem ipsum dolor sit amet,
+					consectetur adipisicing elit. A accusantium aut cupiditate ipsum
+					neque quaerat temporibus totam velit voluptates voluptatum. Ea
+					eaque eveniet temporibus! Cumque error expedita necessitatibus
+					neque odit.</div>
+			</div>
+		</div>
 	</div>
-	<br />
-	<br />
-	<a href="#" onmouseover="over(question3)" onmouseout="out(question3)">3)
-		Troisième Question</a>
-	<div id="ans3" style="display: none;">
-		<ul>
-			<li>réponse 3...</li>
-			<li>réponse 3...</li>
-			<li>réponse 3...</li>
-		</ul>
+</section>
+
+<section>
+	<div class="_box-mini_faq">
+
+		<div class="_container_faq3">
+
+			<div class="_titre_faq3">question3</div>
+			<button type="button" class="_fleche-bas_faq3">▼</button>
+			<button type="button" class="_fleche-haut_faq3">▲</button>
+
+			<div class="_box-mini2_faq3">
+				<div class="_text-inside_faq3">Lorem ipsum dolor sit amet,
+					consectetur adipisicing elit. A accusantium aut cupiditate ipsum
+					neque quaerat temporibus totam velit voluptates voluptatum. Ea
+					eaque eveniet temporibus! Cumque error expedita necessitatibus
+					neque odit.</div>
+			</div>
+		</div>
 	</div>
-</body>
-</html>
+</section>
+
+
+<section>
+	<div class="_box-mini_faq">
+
+		<div class="_container_faq4">
+
+			<div class="_titre_faq4">question4</div>
+			<button type="button" class="_fleche-bas_faq4">▼</button>
+			<button type="button" class="_fleche-haut_faq4">▲</button>
+
+			<div class="_box-mini2_faq4">
+				<div class="_text-inside_faq4">Lorem ipsum dolor sit amet,
+					consectetur adipisicing elit. A accusantium aut cupiditate ipsum
+					neque quaerat temporibus totam velit voluptates voluptatum. Ea
+					eaque eveniet temporibus! Cumque error expedita necessitatibus
+					neque odit.</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script src="js/faq.js">
+	
+</script>
