@@ -63,55 +63,7 @@ public class Patient extends Connexion {
 	@NotEmpty(message="rentrer le password")
 	private String password;
 
-    @NotEmpty(message="rentrer le nom")
-    @Column (name="patient_nom")
-    private String nom;
-    
-    
-    @NotEmpty(message="rentrer le prenom")
-    @Column (name="patient_prenom")
-    private String prenom;
-    
-    @Column (name="patient_age")
-    @NotEmpty(message="rentrer l'age")
-    private String age;
-    
-    @Column (name="patient_sexe")
-    @NotEmpty(message="rentrer le sexe")
-    private String sexe;
-    
-    @Column (name="patient_adresse")
-    @NotEmpty(message="rentrer l'adresse")
-    private String adresse;
-    
-    @Column (name="patient_tel")
-    @NotEmpty(message="rentrer le tel")
-    private String tel;
-    
-    @Column (name="patient_nomU")
-    @NotEmpty(message="rentrer le nomU")
-    private String nomU;
-    
-    @Column (name="patient_prenomU")
-    @NotEmpty(message="rentrer le prenomU")
-    private String prenomU;
-    
-    @Column (name="patient_telU")
-    @NotEmpty(message="rentrer le telU")
-    private String telU;
-    
-    @Column (name="patient_DMP")
-    @NotEmpty(message="rentrer le DMP")
-    private String DMP;
-    
-    @Column (name="patient_numSecu")
-    @NotEmpty(message="rentrer le numSecu")
-    private String numSecu;
-    
-    @Column (name="patient_password")
-    @NotEmpty(message="rentrer le password")
-    private String password;
-
+   
     public String getNom() {
         return nom;
     }
