@@ -3,12 +3,12 @@
 
 <ul id="menu-bar">
 	<li><a href="accueil">Home</a></li>
-	<li><a href="">Profil</a>
-		<ul>
-			<li><a href="#">Voir son profil</a></li>
-			<li><a href="#">Modifier son profil</a></li>
-		</ul></li>
-	<li class="active"><a href="#">Informations</a>
+	<li><a href="inscription">Profil / inscription</a>
+		<!--<ul>
+			<li><a href="#">Voir son profil</a></li> 
+			<li><a href="#">Modifier son profil</a></li> 
+		</ul>--></li>
+	<li><a href="#">Informations</a> <!-- class="active" -->
 		<ul>
 			<li><a href="offres">Les formules</a></li>
 			<li><a href="modules">Les modules</a></li>
